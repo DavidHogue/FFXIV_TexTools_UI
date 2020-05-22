@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xivModdingFramework", "lib\
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TexTools_Setup", "TexTools_Setup\TexTools_Setup.vdproj", "{E8B5A836-A883-4818-ACA3-5C99B9D4F5B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xivModdingFramework.Test", "lib\xivModdingFramework\xivModdingFramework.Test\xivModdingFramework.Test.csproj", "{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,18 @@ Global
 		{E8B5A836-A883-4818-ACA3-5C99B9D4F5B7}.Release|Any CPU.ActiveCfg = Release
 		{E8B5A836-A883-4818-ACA3-5C99B9D4F5B7}.Release|x64.ActiveCfg = Release
 		{E8B5A836-A883-4818-ACA3-5C99B9D4F5B7}.Release|x86.ActiveCfg = Release
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Release|x64.Build.0 = Release|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FC967DB-F2BB-430F-A071-413CBB2AE3CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
