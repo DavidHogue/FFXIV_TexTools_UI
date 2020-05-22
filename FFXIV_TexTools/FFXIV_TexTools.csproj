@@ -626,8 +626,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>mkdir $(TargetDir)lib
-move $(TargetDir)*.dll $(TargetDir)lib</PostBuildEvent>
+    <PostBuildEvent>mkdir "$(TargetDir)lib"
+move "$(TargetDir)*.dll" "$(TargetDir)lib"</PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\Microsoft.HLSL.CSharpVB.1.0.1\build\Microsoft.HLSL.CSharpVB.targets" Condition="Exists('..\packages\Microsoft.HLSL.CSharpVB.1.0.1\build\Microsoft.HLSL.CSharpVB.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
